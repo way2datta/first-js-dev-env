@@ -1,6 +1,5 @@
 import numeral from 'numeral';
-
-debugger;
+import './index.css';
 
 const name = "Arnav";
 const greetingCardValue = numeral(100).format('Rs.0,0.00');
