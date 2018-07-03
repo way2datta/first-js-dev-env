@@ -1,5 +1,4 @@
 import path from 'path';
-import HtmlWebpackPlugin from 'html-webpack-plugin';
 
 export default {
   debug: true,
@@ -13,6 +12,9 @@ export default {
     path: path.resolve(__dirname, 'src'),
     publicPath: '/',
     filename: 'bundle.js'
+  },
+  devServer: {
+    contentBase: path.resolve(__dirname, 'src')
   },
   plugins: [
   ],
